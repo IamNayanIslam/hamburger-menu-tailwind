@@ -28,7 +28,7 @@ const App = () => {
           <li className="cursor-pointer">Contact</li>
         </ul>
       </div> */}
-      <div className={`md:block ${!showMenu && "transform translate-x-full md:translate-x-0 "} ${showMenu && "transform translate-x-0 "} w-2/4 h-screen md:h-full md:w-0 bg-gradient-to-b from-purple-500 to-indigo-500 absolute md:static right-0 top-[70px] py-5 md:py-0  md:bg-transparent text-center transition-transform duration-300`} id="m">
+      <div className={`md:block ${!showMenu && "transform translate-x-full md:translate-x-0 "} ${showMenu && "transform translate-x-0 "} w-2/4 h-screen md:h-full md:w-0 bg-gradient-to-b from-purple-500 to-indigo-500 absolute md:static right-0 top-[80px] py-5 md:py-0  md:bg-transparent text-center transition-transform duration-300`} id="m">
   
         <ul className="flex flex-col md:flex-row md:space-x-6 space-y-2 md:space-y-0">
           <li className="cursor-pointer transition-all duration-300 hover:scale-110 hover:text-white">Home</li>
